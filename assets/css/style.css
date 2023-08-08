@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    
+}
+.parent{
+    height: 60%;
+    width: 40%;
+    background-color: white;
+    margin: 2% 30%;
+     padding: 95px 62px;
+     padding-bottom: 35px; 
+
+}
+.heading{
+    text-align: center;
+    color: rgb(56, 167, 56);
+    font-weight: 100;
+    font-size: 20px;
+    position: relative;
+}
+.heading::before{
+    content: " ";
+    display: block;
+    height: 1px;
+    width: 90px;
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    background: rgb(82, 80, 80);
+}
+.heading::after{
+    content: " ";
+    display: block;
+    height: 1px;
+    width: 94px;
+    position: absolute;
+    top: 50%;
+    right:40px;
+    background: rgb(82, 80, 80) ;
+}
+.head-4{
+    font-weight: 100;
+    color: rgb(82, 80, 80);
+    margin-left: 240px;
+}
+
+.table-1{
+    border: 1px solid rgb(82, 80, 80);
+    height: 60px;
+    width:340px;
+    margin:2% 11%;
+    border-radius: 4px;
+}
+.table-2{
+    border: 1px solid rgb(82, 80, 80);
+    height:140px;
+    width:340px;
+    margin:2% 11%;
+    border-radius: 4px;
+}
+.tdd{
+    font-size: 10px;
+    text-decoration: line-through;
+    padding-top: 16px;
+}
+.table-3{
+    border: 1px solid rgb(82, 80, 80);
+    height: 60px;
+    width: 340px;
+    margin:2% 11% ;
+    border-radius: 4px;
+
+}
+.table-4{
+    height:60px;
+    width:340px;
+    margin:2% 18% ;
+}
+
+.data{
+    padding-left: 25px;
+    font-size: 13px;
+}
+.btn{
+    border: 1px solid rgb(62, 156, 62);
+    background: rgb(62,156,62);
+    color: white;
+    height: 40px;
+    width: 340px;
+    margin: 0 40px;
+    border-radius: 4px;
+}
